@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PostProcessingController {
 
-	@PostMapping(path = "/message")
+	@GetMapping(path = "/message")
 	public String message() {
 		return "postprocessing";
 	}
