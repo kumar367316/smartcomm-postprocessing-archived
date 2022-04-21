@@ -13,6 +13,6 @@ public class PostProcessingController {
 
 	@GetMapping(path = "/message")
 	public String message() {
-		return "postprocessing";
+		return "archived branch postprocessing";
 	}
 }
