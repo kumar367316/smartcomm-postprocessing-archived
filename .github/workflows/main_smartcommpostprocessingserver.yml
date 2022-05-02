@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'SmartCommPostProcessingServer'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E6F51035877C45FEA4AF0C941C29B254 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2143809CDB0E4301AACB2C5C88A39F1D }}
           package: '*.jar'
