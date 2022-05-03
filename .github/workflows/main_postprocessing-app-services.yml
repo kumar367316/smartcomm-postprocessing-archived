@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'postprocessing-app-services'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_21E9FEE58FC741F8806BF38D00F49C48 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FADD2075CD3F47C791A1E3BF23ECFADE }}
           package: '*.jar'
